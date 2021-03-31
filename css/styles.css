@@ -8,15 +8,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  color: #8f8f8f;
+  color: #000;
 }
 
 /* Headings */
 .big-heading {
   font-family: "Montserrat-Black";
   font-size: 3rem;
-  line-height: 1.5;
+  line-height: 2.5;
   font-family: 'Ubuntu', sans-serif;
+  margin-top: -65px;
 }
 
 .section-heading {
@@ -45,8 +46,8 @@ p {
 }
 
 .navbar-brand {
-  font-family: "Ubuntu";
-  font-size: 2.5rem;
+  font-family: "Ubuntu" sans-serif;
+  font-size: 3rem;
   font-weight: bold;
 }
 
@@ -61,7 +62,7 @@ p {
 
 /* Title Section */
 #title .container-fluid {
-  padding: 3% 15% 15%;
+  padding: 5% 15% 15%;
   text-align: left;
 }
 
@@ -74,8 +75,6 @@ p {
 
 /* Features */
 .icon {
-  /* padding: 2.5rem 0; */
-  /* font-size: 2.5rem; */
   color: #000;
   margin-bottom: 1rem;
 }
@@ -130,6 +129,7 @@ p {
 /* CTA Section */
 #cta {
   background-color: #e9c496;
+  padding-top: 30px;
 }
 
 /* Footer Section */
